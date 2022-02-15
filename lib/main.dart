@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
 //Hacemos un cambio agregando un app bar al código.
           appBar: AppBar(
-            title: const Text('Probando Git'),
+            title: const Text('Probando Github'),
           ),
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [Text('Hola, estoy probando Git.')],
+              children: const [Text('Ahora probaremos github.')],
             ),
           )),
     );
